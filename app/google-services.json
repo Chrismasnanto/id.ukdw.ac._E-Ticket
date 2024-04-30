@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24587878427",
+    "project_id": "latihan3-30a86",
+    "storage_bucket": "latihan3-30a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24587878427:android:2c7d1f23ce3358aa8eb8be",
+        "android_client_info": {
+          "package_name": "com.example.home_screen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNbgLH6cJ-o-k2F8mApQeuqK5P_0l7L90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
