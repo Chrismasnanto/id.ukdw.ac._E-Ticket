@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_schedule_bus"
+    android:layout_width="match_parent"
+    android:layout_height="844dp"
+    android:background="@drawable/container_schedule_bus">
+
+    <LinearLayout
+        android:id="@+id/container_frame8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="246dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container_frame9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/container_frame10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/container_frame10"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/text_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="All"
+                    android:textColor="#FFEEEEEE"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container_frame12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/container_frame12"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/text_free_reschedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Free Reschedule"
+                    android:textColor="#FF7060E5"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/container_frame13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/container_frame13"
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp">
+
+                <TextView
+                    android:id="@+id/text_free_protection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Free Protection"
+                    android:textColor="#FF7060E5"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/container_ticket"
+            android:layout_width="350dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/container_ticket">
+
+            <LinearLayout
+                android:id="@+id/container_frame15"
+                android:layout_width="111dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="242dp"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="top|left"
+                android:clipToPadding="false"
+                android:gravity="left|bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_rp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:gravity="right|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Rp. 500.000"
+                    android:textColor="#FFFC7725"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/text_pax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="/Pax"
+                    android:textColor="#FF9B9B9B"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/container_frame16"
+                android:layout_width="186dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="top|left">
+
+                <TextView
+                    android:id="@+id/container_frame18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:layout_marginTop="-1dp"
+                    android:layout_marginBottom="-1dp"
+                    android:layout_gravity="top|left"
+                    android:gravity="left|center_vertical"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="10:00"
+                    android:textColor="#FF464646"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/image_frame1"
+                    android:layout_width="4dp"
+                    android:layout_height="19dp"
+                    android:layout_marginTop="27dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:id="@+id/container_frame19"
+                    android:layout_width="63dp"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_gravity="top|left"
+                    android:gravity="left|top"
+                    android:includeFontPadding="false"
+                    android:lineHeight="9.38dp"
+                    android:text="19j 0mnt"
+                    android:textColor="#FF464646"
+                    android:textSize="8dp" />
+
+                <ImageView
+                    android:id="@+id/line"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/line" />
+
+                <LinearLayout
+                    android:id="@+id/container_frame20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/container_frame20"
+                    android:clipToPadding="false"
+                    android:gravity="left|top"
+                    android:orientation="horizontal"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp">
+
+                    <TextView
+                        android:id="@+id/text_restu_mulya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Restu Mulya Cabang Yogyakarta"
+                        android:textColor="#FF9B9B9B"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/text_terminal_mengwi"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="74dp"
+                android:layout_marginTop="106dp"
+                android:layout_gravity="top|left"
+                android:gravity="center_horizontal|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Terminal Mengwi Badung"
+                android:textColor="#FF9B9B9B"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/text_sisa_kursi"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_marginLeft="278dp"
+                android:layout_marginTop="134dp"
+                android:layout_gravity="top|left"
+                android:gravity="center_horizontal|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="sisa 1 kursi"
+                android:textColor="#FF9B9B9B"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/container_frame22"
+                android:layout_width="63dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="123dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|top"
+                android:includeFontPadding="false"
+                android:lineHeight="9.38dp"
+                android:text="+1 hari"
+                android:textColor="#FF464646"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/container_frame24"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="103dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top|left"
+                android:gravity="right|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="06.00"
+                android:textColor="#FF464646"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:id="@+id/container_frame25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"

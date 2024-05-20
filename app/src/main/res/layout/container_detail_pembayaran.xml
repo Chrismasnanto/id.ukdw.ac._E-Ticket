@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_detail_pemesanan"
+    android:layout_width="match_parent"
+    android:layout_height="844dp"
+    android:background="@drawable/container_detail_pemesanan">
+
+    <FrameLayout
+        android:id="@+id/container_bg_header"
+        android:layout_width="390dp"
+        android:layout_height="117dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_bg_header">
+
+        <ImageView
+            android:id="@+id/img_ellipse"
+            android:layout_width="167dp"
+            android:layout_height="167dp"
+            android:layout_marginLeft="-33dp"
+            android:layout_marginTop="-65dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/img_ellipse"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/img_ellipse1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="-58dp"
+            android:layout_marginTop="-60dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/img_ellipse1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/img_ellipse2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="-52dp"
+            android:layout_marginTop="-47dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/img_ellipse2"
+            android:scaleType="centerInside" />
+
+        <FrameLayout
+            android:id="@+id/container_bars_status_iphone_dark"
+            android:layout_width="match_parent"
+            android:layout_height="25.88dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1.55dp"
+            android:layout_marginBottom="89.56dp">
+
+            <FrameLayout
+                android:id="@+id/container_frame4"
+                android:layout_width="350dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_gravity="top|left">
+
+                <FrameLayout
+                    android:id="@+id/container_time_style"
+                    android:layout_width="54dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="top|left">
+
+                    <TextView
+                        android:id="@+id/text_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="9:41"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="17dp" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/container_frame5"
+                    android:layout_width="80.15dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="269.85dp"
+                    android:layout_marginTop="4.1dp"
+                    android:layout_gravity="top|left"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/container_frame5" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_frame2"
+        android:layout_width="101dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="402dp"
+        android:layout_marginTop="173.53dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/container_frame2"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:id="@+id/image_airplane"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_airplane" />
+
+        <TextView
+            android:id="@+id/text_flight"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Flight"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_frame"
+        android:layout_width="390dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="top|left">
+
+        <ImageView
+            android:id="@+id/image_arrow_left"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="top|left"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_arrow_left" />
+
+        <TextView
+            android:id="@+id/text_perjalanan_anda"
+            android:layout_width="248dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="14dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Perjalanan anda"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_pilih_jenis_tiket_anda"
+        android:layout_width="158dp"
+        android:layout_height="23dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginBottom="465dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Pilih jenis tiket Anda"
+        android:textColor="#FF000000"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/image_rectangle"
+        android:layout_width="343dp"
+        android:layout_height="187dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="133dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_rectangle1"
+        android:layout_width="343dp"
+        android:layout_height="187dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="384dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle1"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/texthr_30m"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="176dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="1hr 30m"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/text_langsung"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="196dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Langsung"
+        android:textColor="#FF000000"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/text_yogyakarta_bali"
+        android:layout_width="114dp"
+        android:layout_height="23dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginBottom="680dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Yogyakarta - Bali"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/text_original"
+        android:layout_width="114dp"
+        android:layout_height="23dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginBottom="423dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Original"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/text_sel_jan_2024"
+        android:layout_width="114dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginBottom="680dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Sel, 9 Jan 2024"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/text_bagasi_kabinx7kg"
+        android:layout_width="232dp"
+        android:layout_height="23dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginBottom="366dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Bagasi kabin 1 x 7 kg"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/text_bisa_direfundpercent"
+        android:layout_width="232dp"
+        android:layout_height="23dp"

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_detail_ticket"
+  android:layout_width="match_parent"
+  android:layout_height="844dp"
+  android:background="@drawable/container_detail_ticket">
+  
+  <FrameLayout
+    android:id="@+id/container_bg_header"
+    android:layout_width="390dp"
+    android:layout_height="440dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_bg_header">
+    
+    <ImageView
+      android:id="@+id/img_ellipse"
+      android:layout_width="167dp"
+      android:layout_height="167dp"
+      android:layout_marginLeft="-33dp"
+      android:layout_marginTop="-65dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/img_ellipse"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/img_ellipse1"
+      android:layout_width="140dp"
+      android:layout_height="140dp"
+      android:layout_marginLeft="-58dp"
+      android:layout_marginTop="-60dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/img_ellipse1"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/img_ellipse2"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginLeft="-52dp"
+      android:layout_marginTop="-47dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/img_ellipse2"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:id="@+id/img_more_icon"
+      android:layout_width="24dp"
+      android:layout_height="24dp"
+      android:layout_marginLeft="346dp"
+      android:layout_marginTop="56dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_more_icon" />
+    
+    <FrameLayout
+      android:id="@+id/container_bars_status"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="-1dp"
+      android:layout_marginRight="1dp"
+      android:layout_marginTop="3dp"
+      android:layout_marginBottom="387dp">
+      
+      <FrameLayout
+        android:id="@+id/container_frame"
+        android:layout_width="350dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="top|left">
+        
+        <FrameLayout
+          android:id="@+id/container_time_style"
+          android:layout_width="54dp"
+          android:layout_height="22dp"
+          android:layout_gravity="top|left">
+          
+          <TextView
+            android:id="@+id/text_time"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="9:41"
+            android:textColor="#FFFFFFFF"
+            android:textSize="17dp" />
+        </FrameLayout>
+        
+        <ImageView
+          android:id="@+id/container_frame1"
+          android:layout_width="80.15dp"
+          android:layout_height="13dp"
+          android:layout_marginLeft="269.85dp"
+          android:layout_marginTop="4.1dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/container_frame1" />
+      </FrameLayout>
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/img_arrow_left"
+      android:layout_width="24dp"
+      android:layout_height="24dp"
+      android:layout_marginLeft="38dp"
+      android:layout_marginTop="64dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/img_arrow_left"
+      android:scaleType="centerInside" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="221.5dp"
+    android:layout_height="36dp"
+    android:layout_marginTop="58dp"
+    android:layout_gravity="top">
+    
+    <ImageView
+      android:id="@+id/img_combined_shape"
+      android:layout_width="16.5dp"
+      android:layout_height="13.55dp"
+      android:layout_marginRight="205dp"
+      android:layout_marginTop="11.5dp"
+      android:layout_marginBottom="10.95dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_combined_shape" />
+    
+    <LinearLayout
+      android:id="@+id/container_frame2"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="86.5dp"
+      android:gravity="center"
+      android:orientation="vertical">
+      
+      <TextView
+        android:id="@+id/text_your_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Your Ticket"
+        android:textColor="#FFEEEEEE"
+        android:textSize="24dp" />
+    </LinearLayout>
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_frame4"
+    android:layout_width="101dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="402dp"
+    android:layout_marginTop="173.53dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_frame4"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+    
+    <ImageView
+      android:id="@+id/img_airplane"
+      android:layout_width="24dp"
+      android:layout_height="24dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_airplane" />
+    
+    <TextView
+      android:id="@+id/text_flight"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_marginLeft="34dp"
+      android:layout_marginTop="2dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Flight"
+      android:textColor="#FF121212"
+      android:textSize="14dp" />
+  </FrameLayout>
+  
+  <FrameLayout
+    android:id="@+id/container_frame_ticket"
+    android:layout_width="350dp"
+    android:layout_height="534dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="154dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_frame_ticket">
+    
+    <ImageView
+      android:id="@+id/img_frame_ticket"
+      android:layout_width="350dp"
+      android:layout_height="534dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_frame_ticket" />
+    
+    <ImageView
+      android:id="@+id/img_line"
+      android:layout_width="319.5dp"
+      android:layout_height="1dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="209.5dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_line" />
+    
+    <ImageView
+      android:id="@+id/img_line1"
+      android:layout_width="319.5dp"
+      android:layout_height="1dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="365dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_line1" />
+    
+    <LinearLayout
+      android:id="@+id/container_frame5"
+      android:layout_width="310dp"
+      android:layout_height="96dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="240dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|top"
+      android:orientation="vertical">
+      
+      <LinearLayout
+        android:id="@+id/container_frame6"
+        android:layout_width="310dp"
+        android:layout_height="0dp"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:gravity="left|top"
+        android:orientation="vertical">
+        
+        <FrameLayout
+          android:id="@+id/container_frame7"
+          android:layout_width="310dp"
+          android:layout_height="18dp"
+          android:layout_gravity="left">
+          
+          <TextView
+            android:id="@+id/text_flight_no"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Flight No"
+            android:textColor="#FFAAAAAA"
+            android:textSize="12dp" />
+          
+          <TextView
+            android:id="@+id/text_class"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="138dp"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Class"
+            android:textColor="#FFAAAAAA"
+            android:textSize="12dp" />
+          
+          <TextView
+            android:id="@+id/text_ticket_id"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="249dp"
+            android:layout_gravity="top|left"
+            android:gravity="right|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Ticket ID"
+            android:textColor="#FFAAAAAA"
+            android:textSize="12dp" />
+        </FrameLayout>
+        
+        <FrameLayout
+          android:id="@+id/container_frame8"
+          android:layout_width="310dp"
+          android:layout_height="18dp"
+          android:layout_marginTop="2dp"
+          android:layout_gravity="left">
+          
+          <TextView
+            android:id="@+id/text_dps"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="673DPS"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+          
+          <TextView
+            android:id="@+id/text_a"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="249dp"
+            android:layout_gravity="top|left"
+            android:gravity="right|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="A062232"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+          
+          <TextView
+            android:id="@+id/text_economy"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="138dp"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Economy"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+        </FrameLayout>
+      </LinearLayout>
+      
+      <LinearLayout
+        android:id="@+id/container_frame9"
+        android:layout_width="310dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:gravity="left|top"
+        android:orientation="vertical">
+        
+        <FrameLayout
+          android:id="@+id/container_frame10"
+          android:layout_width="310dp"
+          android:layout_height="18dp"
+          android:layout_gravity="left">
+          
+          <TextView
+            android:id="@+id/text_passenger"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Passenger"
+            android:textColor="#FFAAAAAA"
+            android:textSize="12dp" />
+          
+          <TextView
+            android:id="@+id/text_seat"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="138dp"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Seat"
+            android:textColor="#FFAAAAAA"
+            android:textSize="12dp" />
+          
+          <TextView
+            android:id="@+id/text_baggage"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="250dp"
+            android:layout_gravity="top|left"
+            android:gravity="right|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Baggage"
+            android:textColor="#FFAAAAAA"
+            android:textSize="12dp" />
+        </FrameLayout>
+        
+        <FrameLayout
+          android:id="@+id/container_frame11"
+          android:layout_width="310dp"
+          android:layout_height="18dp"
+          android:layout_marginTop="2dp"
+          android:layout_gravity="left">
+          
+          <TextView
+            android:id="@+id/text_adult"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_gravity="top|left"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="1 Adult"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+          
+          <TextView
+            android:id="@+id/text_kg"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="251dp"
+            android:layout_gravity="top|left"
+            android:gravity="right|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="20kg"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+          
+          <TextView
+            android:id="@+id/text_a18"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_marginLeft="138dp"
+            android:layout_gravity="top|left"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="A18"
+            android:textColor="#FF121212"
+            android:textSize="14dp" />
+        </FrameLayout>
+      </LinearLayout>
+    </LinearLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_logo_citilink"
+      android:layout_width="65dp"
+      android:layout_height="26dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="25dp"
+      android:layout_gravity="top|left">
+      
+      <ImageView
+        android:id="@+id/img_air_asia"
+        android:layout_width="89.7dp"
+        android:layout_height="36.4dp"
+        android:layout_marginLeft="-11.7dp"
+        android:layout_marginTop="-5.2dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_air_asia" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/container_line"
+      android:layout_width="310dp"
+      android:layout_height="1dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="70dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_line" />
+    
+    <FrameLayout
+      android:id="@+id/container_frame12"
+      android:layout_width="310dp"
+      android:layout_height="18dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="81dp"
+      android:layout_gravity="top|left">
+      
+      <TextView
+        android:id="@+id/text_bandung"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Bandung"
+        android:textColor="#FFAAAAAA"
+        android:textSize="12dp" />
+      
+      <TextView
+        android:id="@+id/text_denpasar"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="250dp"
+        android:layout_gravity="top|left"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Denpasar"
+        android:textColor="#FFAAAAAA"
+        android:textSize="12dp" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_bdo"
+      android:layout_width="70dp"
+      android:layout_height="45dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="101dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="BDO"
+      android:textColor="#FF121212"
+      android:textSize="30dp" />
+    
+    <ImageView
+      android:id="@+id/container_line1"
+      android:layout_width="60dp"
+      android:layout_height="0dp"
+      android:layout_marginRight="51.5dp"
+      android:layout_marginBottom="143dp"
+      android:layout_gravity="center"
+      android:alpha="0.699999988079071"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_line1" />
+    
+    <ImageView
+      android:id="@+id/img_airplane_icon"
+      android:layout_width="33.94dp"
+      android:layout_height="33.94dp"
+      android:layout_marginLeft="1dp"
+      android:layout_marginBottom="143.53dp"
+      android:layout_gravity="center"
+      android:scaleType="centerInside"
+      android:src="@drawable/img_airplane_icon" />
+    
+    <ImageView
+      android:id="@+id/container_line2"
+      android:layout_width="60dp"
+      android:layout_height="0dp"
+      android:layout_marginLeft="53.5dp"
+      android:layout_marginBottom="143dp"
+      android:layout_gravity="center"
+      android:alpha="0.699999988079071"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_line2" />
+    
+    <TextView
+      android:id="@+id/text_dps1"
+      android:layout_width="68dp"
+      android:layout_height="45dp"
+      android:layout_marginLeft="121dp"
+      android:layout_marginBottom="143.5dp"
+      android:layout_gravity="center"
+      android:gravity="right|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="DPS"
+      android:textColor="#FF121212"
+      android:textSize="30dp" />
+    
+    <FrameLayout
+      android:id="@+id/container_frame13"
+      android:layout_width="310dp"
+      android:layout_height="18dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="148dp"
+      android:layout_gravity="top|left">
+      
+      <TextView
+        android:id="@+id/text_time1"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="9 Feb 24, 13:10 AM"
+        android:textColor="#FF717171"
+        android:textSize="12dp" />
+      
+      <TextView
+        android:id="@+id/text_time2"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="201dp"
+        android:layout_gravity="top|left"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="9 Feb 24, 14:40 AM"
+        android:textColor="#FF717171"
+        android:textSize="12dp" />
+    </FrameLayout>
+    
+    <TextView
+      android:id="@+id/text_duration"
+      android:layout_width="wrap_content"
+      android:layout_height="18dp"
+      android:layout_marginLeft="153dp"
+      android:layout_marginTop="135dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="1hr 30m"
+      android:textColor="#FF717171"
+      android:textSize="12dp" />
+    
+    <ImageView
+      android:id="@+id/container_line3"
+      android:layout_width="310dp"
+      android:layout_height="1dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="175dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/container_line3" />
+    
+    <LinearLayout
+      android:id="@+id/container_frame14"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="132dp"
+      android:layout_marginTop="396dp"
+      android:layout_gravity="top|left"
+      android:gravity="center_horizontal|top"
+      android:orientation="vertical">
+      
+      <ImageView
+        android:id="@+id/img_image"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_image" />
+      
+      <TextView
+        android:id="@+id/text_scan_here"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Scan Here"
+        android:textColor="#FF121212"
+        android:textSize="14dp" />
+    </LinearLayout>
+  </FrameLayout>
+  
+  <LinearLayout
+    android:id="@+id/container_download_ticket"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="766dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_download_ticket"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp">
+    
+    <TextView
+      android:id="@+id/text_download_ticket"
+      android:layout_width="wrap_content"
+      android:layout_height="24dp"
+      android:gravity="center_horizontal|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Download Ticket"
+      android:textColor="#FFFFFFFF"
+      android:textSize="16dp" />
+  </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_login"
+  android:layout_width="match_parent"
+  android:layout_height="844dp"
+  android:background="@drawable/container_login">
+  
+  <TextView
+    android:id="@+id/text_login_title"
+    android:layout_width="284dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="51dp"
+    android:layout_marginTop="49dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Login"
+    android:textColor="#FF000000"
+    android:textSize="40dp" />
+  
+      <FrameLayout
+    android:id="@+id/container_frame"
+    android:layout_width="318dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="34dp"
+    android:layout_marginTop="520dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_frame">
+    
+    <ImageView
+      android:id="@+id/image_rectangle"
+      android:layout_width="318dp"
+      android:layout_height="45dp"
+      android:layout_gravity="top|left"
+      android:background="@drawable/image_rectangle"
+      android:scaleType="centerInside" />
+    
+    <TextView
+      android:id="@+id/text_login"
+      android:layout_width="94dp"
+      android:layout_height="35dp"
+      android:layout_marginLeft="133dp"
+      android:layout_marginTop="5dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Login"
+      android:textColor="#FFFFFFFF"
+      android:textSize="25dp" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/text_login_policy"
+    android:layout_width="233dp"
+    android:layout_height="72dp"
+    android:layout_marginLeft="79dp"
+    android:layout_marginTop="109dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|top"
+    android:includeFontPadding="false"
+    android:lineHeight="29.3dp"
+    android:text="By signing in you are agreeing our Term and privacy policy"
+    android:textColor="#FF036BB9"
+    android:textSize="25dp" />
+
+
+    <TextView
+    android:id="@+id/text_email_address"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginTop="292dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Email Address"
+    android:textColor="#FFA6A6A6"
+    android:textSize="25dp" />
+  
+  <TextView
+    android:id="@+id/text_password"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginTop="375dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Password"
+    android:textColor="#FFA6A6A6"
+    android:textSize="25dp" />
+  
+  <TextView
+    android:id="@+id/text_register_button"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginLeft="196dp"
+    android:layout_marginTop="210dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Register"
+    android:textColor="#FFA6A6A6"
+    android:textSize="25dp" />
+  
+  <ImageView
+    android:id="@+id/iv_mail"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginTop="296dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_mail" />
+  
+  <ImageView
+    android:id="@+id/iv_lock"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginTop="377dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_lock" />
+  
+  <ImageView
+    android:id="@+id/container_line1"
+    android:layout_width="317dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginTop="322dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line1" />
+  
+  <ImageView
+    android:id="@+id/container_line2"
+    android:layout_width="43dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="123dp"
+    android:layout_marginTop="242dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line2" />
+  
+  <ImageView
+    android:id="@+id/container_line3"
+    android:layout_width="317dp"
+    android:layout_height="1dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginTop="405dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line3" />
+  
+  <TextView
+    android:id="@+id/text_forget_password"
+    android:layout_width="143dp"
+    android:layout_height="29dp"
+    android:layout_marginLeft="244dp"
+    android:layout_marginTop="449dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Forget password"
+    android:textColor="#FF0386D0"
+    android:textSize="21dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group2"
+    android:layout_width="206dp"
+    android:layout_height="29dp"
+    android:layout_marginLeft="29dp"
+    android:layout_marginTop="450dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/container_group2">
+    
+    <ImageView
+      android:id="@+id/image_rectangle1"
+      android:layout_width="21dp"
+      android:layout_height="21dp"
+      android:layout_marginTop="1dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_rectangle1" />
+    
+    <TextView
+      android:id="@+id/text_remember_password"
+      android:layout_width="match_parent"
+      android:layout_height="29dp"
+      android:layout_marginLeft="30dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Remember password"
+      android:textColor="#FF6B5E5E"
+      android:textSize="21dp" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/container_group1"
+    android:layout_width="33dp"
+    android:layout_height="18dp"
+    android:layout_marginLeft="310dp"
+    android:layout_marginTop="383dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_group1" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="414dp"
+    android:layout_height="895dp"
+    android:layout_marginLeft="537dp"
+    android:layout_marginTop="1dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle2" />
+  
+  <ImageView
+    android:id="@+id/image_subtract"
+    android:layout_width="414dp"
+    android:layout_height="218.26dp"
+    android:layout_marginTop="743.74dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_subtract" />
+  
+  <TextView
+    android:id="@+id/text_touch_id"
+    android:layout_width="125dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="150dp"
+    android:layout_marginTop="868dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|top"
+    android:includeFontPadding="false"
+    android:lineHeight="34.91dp"
+    android:text="Login wit touch ID"
+    android:textColor="#FFFFFFFF"
+    android:textSize="25dp" />
+
+  <LinearLayout
+      android:id="@+id/container_status_bar"
+      android:layout_width="434dp"
+      android:layout_height="58dp"
+      android:layout_gravity="top|left"
+      android:layout_marginLeft="-14dp"
+      android:layout_marginTop="-2dp"
+      android:background="@drawable/container_status_bar"
+      android:gravity="left|center_vertical"
+      android:orientation="horizontal"
+      android:paddingLeft="16dp"
+      android:paddingTop="8dp"
+      android:paddingRight="16dp"
+      android:paddingBottom="8dp">
+
+    <FrameLayout
+        android:id="@+id/container_frame2"
+        android:layout_width="414dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp">
+
+      <FrameLayout
+          android:id="@+id/container_time_style"
+          android:layout_width="54dp"
+          android:layout_height="22dp"
+          android:layout_gravity="top|left">
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="9:41"
+            android:textColor="#FFFFFFFF"
+            android:textSize="17dp" />
+      </FrameLayout>
+
+      <ImageView
+          android:id="@+id/container_frame3"
+          android:layout_width="80.15dp"
+          android:layout_height="13dp"
+          android:layout_gravity="top|left"
+          android:layout_marginLeft="269.85dp"
+          android:layout_marginTop="4.1dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/container_frame3" />
+    </FrameLayout>
+  </LinearLayout>
+</FrameLayout>
